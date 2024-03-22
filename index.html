@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">Etch-a-Sketch</h1>
-    <div class="game-settings">
-        <p>RGB<input type="radio" name="color" id="rgb-radio"></p>
-        <p>Monochrome <input type="radio" name="color" id="Monochrome-radio"></p>
-        <button class="reset">Reset</button>
-        <p>Grid Number: <input type="text"></p>
-    </div>
+    <div class="container">
+
+        <h1 class="title">Etch-a-Sketch</h1>
+
     <div class="game-grid">
-        
+    </div>
+
+    <div class="game-settings">
+        <div class="left-circle"></div>
+        <p class="rgb-para">RGB<input type="radio" name="color" id="rgb-radio"></p>
+        <p>Monochrome <input type="radio" name="color" id="Monochrome-radio"></p>
+        <p>Grid Number: <input type="text"></p>
+        <button class="reset">Reset</button>
+        <div class="right-circle"></div>
+    </div>
+
     </div>
     <!-- link javascript -->
     <script src="script.js"></script>
