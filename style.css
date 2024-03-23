@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game-grid{
+    margin-top: 2rem;
+    background-color: aliceblue;
+    width: 100rem;
+    height: 45rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.left-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.right-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.game{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.game-title-control{
+    margin-right: 30rem;
+    margin-left: 30rem;
+}
+.game-controls{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 3.5rem;
+}
