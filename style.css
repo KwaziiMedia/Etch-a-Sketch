@@ -1,50 +1,53 @@
 body{
-    background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 .container{
-    background-color: red;
-    border-radius: 5%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 1500px;
-    height: 850px;
-    margin-top: 25px;
+    margin: auto;
+    width: 1200px;
+    height: 900px;
+    background-color: red;
+    border-radius: 3%;
+    margin-top: 35px;
 }
-.title{
-    font-weight: 800;
-    font-size: 70px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
+
 .grid{
+    width: 700px;
+    height: 650px;
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
-    height: 575px;
     background-color: white;
-    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .controls{
-    width: 95%;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
 }
 .reset{
-    height: 125px;
-    width: 125px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin: none;
 }
 .grid-size{
-    height: 125px;
-    width: 125px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline-block;
+        margin: none;
+}
+.title{
+    font-size: 75px;
+    margin-bottom: 5px;
 }
